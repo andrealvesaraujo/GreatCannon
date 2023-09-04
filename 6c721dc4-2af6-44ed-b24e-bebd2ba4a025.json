@@ -1,0 +1,2339 @@
+{
+  "firstLayout": "Main scene",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "a257386c-1fa7-4779-93c4-c600b9e69767",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "GreatCannon",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gatling Gun Vertical_Aiming.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gatling Gun Vertical_Aiming.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/ef39569947a6ee28d84de7f5a160f564eead0ceecbd803cb8e295e945340eb62_Gatling Gun Vertical_Aiming.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Desert tank (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Desert tank (1).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/PNG/Retina/4303b04da715a62ef8c6aaa90cc9eb0a096d45b16c9d2b86db4123928f4dc7ef_Desert tank (1).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannon Vertical_Aiming.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cannon Vertical_Aiming.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/bb1467ce0a56abecfaff740c072aa33ab5378e61898e24b9fa5dd06de74e63ee_Cannon Vertical_Aiming.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cannon.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/597fc486a9ca22c93dd05c0980a21a42178b98c02f15bd74be7702ee6af5bb46_Cannon.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannon Ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cannon Ball.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Cannon/dece2f17b4c1fa89e8a33af18542cab865c0af49c0b38137aa9bb1ef4fc5b509_Cannon Ball.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pirate ship.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pirate ship.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Ships/6a99c739f081a302b53a2aadc16af8d6d1fd0a69eda39352f5623a9a4edaf8c0_Pirate ship.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green ship.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green ship.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Ships/d4ddd553a02c67842118c50a5adfb4df42e199081e3bf837373cc8d058502248_Green ship.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red ship.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red ship.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Ships/fea9f6d3ff0945957b1c381c6c894365b4b2ffb9a318bd388497bdc365689d27_Red ship.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/1983e43269e3bc0f6066cdaeadc48bcf323019a5bb81e11f6c19d76c3b014ad3_explosion_1.png",
+          "name": "explosion_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/ea41ef1dfd0fb7ada13251ef6793bbb3a12d268121ec9f62957f46c77e643587_explosion_2.png",
+          "name": "explosion_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/22f5bf86ed7f21b255b8a6207a104afaba5db0c4177e29f686cddb25e344f254_explosion_3.png",
+          "name": "explosion_3.png"
+        }
+      },
+      {
+        "file": "assets/YujiBoku-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "YujiBoku-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_sea.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_sea.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Sea/5bf50b4a49b40cdab578d8eec6720ef953fb6f8309ce6e34c501bc9bd224d903_tiled_sea.png",
+          "name": "tiled_sea.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/24589fa8538f5bb60548652bd3527a9f615f003f02b24347452b4003bbcdfaad_Whale_Attack_1.png",
+          "name": "Whale_Attack_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/0bea26ede54b7d04f5b035a591c973e80450808c8974ce97ecb125baf43e2f96_Whale_Attack_10.png",
+          "name": "Whale_Attack_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/bdd964facdb3b709a511346df42bc412dbf3ea54ec2e9a8c00c760f018f90a19_Whale_Attack_11.png",
+          "name": "Whale_Attack_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/c546d36a28e173b09c2fe5d0e99252308be05fe2d2714f23169e0c84e4af83f9_Whale_Attack_2.png",
+          "name": "Whale_Attack_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/c546d36a28e173b09c2fe5d0e99252308be05fe2d2714f23169e0c84e4af83f9_Whale_Attack_3.png",
+          "name": "Whale_Attack_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6b7db0283f89bd7daf6e1749d770775504cf6799a654030bc779f858db0d737a_Whale_Attack_4.png",
+          "name": "Whale_Attack_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6b7db0283f89bd7daf6e1749d770775504cf6799a654030bc779f858db0d737a_Whale_Attack_5.png",
+          "name": "Whale_Attack_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/38fcd6dacbfa57d03048d579deeca3fc6a0a0b50e1376fa8f5a0283e49cac529_Whale_Attack_6.png",
+          "name": "Whale_Attack_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/38fcd6dacbfa57d03048d579deeca3fc6a0a0b50e1376fa8f5a0283e49cac529_Whale_Attack_7.png",
+          "name": "Whale_Attack_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/d2e59eb0f56ae44035cc173a4ad512e672f21709575a302ae5d56a41c638a94a_Whale_Attack_8.png",
+          "name": "Whale_Attack_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Attack_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Attack_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/0bea26ede54b7d04f5b035a591c973e80450808c8974ce97ecb125baf43e2f96_Whale_Attack_9.png",
+          "name": "Whale_Attack_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Ground_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/05a92b2a213a5f59b8416cd3ad6157886108c8719422c312ca58b6a8a6b1e329_Whale_Dead Ground_1.png",
+          "name": "Whale_Dead Ground_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Ground_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/05a92b2a213a5f59b8416cd3ad6157886108c8719422c312ca58b6a8a6b1e329_Whale_Dead Ground_2.png",
+          "name": "Whale_Dead Ground_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Ground_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/442e6c80a36d187ae79422461a45d1d075b4f505d885cbc4a51a752f6ccb664e_Whale_Dead Ground_3.png",
+          "name": "Whale_Dead Ground_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Ground_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Ground_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/b20fa381cd450a7f0399ebafe64afc89ea928657937a651ecb668ae326e59233_Whale_Dead Ground_4.png",
+          "name": "Whale_Dead Ground_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/4c7fea6f8abd111e2085379d0614c7c684d5bc2a99a90d08fb86f8440f45e22a_Whale_Dead Hit_1.png",
+          "name": "Whale_Dead Hit_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/4c7fea6f8abd111e2085379d0614c7c684d5bc2a99a90d08fb86f8440f45e22a_Whale_Dead Hit_2.png",
+          "name": "Whale_Dead Hit_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/4c7fea6f8abd111e2085379d0614c7c684d5bc2a99a90d08fb86f8440f45e22a_Whale_Dead Hit_3.png",
+          "name": "Whale_Dead Hit_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/ba19d6ff08e49b21ac9d734eb74591db9977fe17992e105b6f218e1a56ae5bed_Whale_Dead Hit_4.png",
+          "name": "Whale_Dead Hit_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/ba19d6ff08e49b21ac9d734eb74591db9977fe17992e105b6f218e1a56ae5bed_Whale_Dead Hit_5.png",
+          "name": "Whale_Dead Hit_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Dead Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Dead Hit_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/20186e096e189c13961a1e24b6bc674bf2262585efa5705e491db78550a04e87_Whale_Dead Hit_6.png",
+          "name": "Whale_Dead Hit_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Fall_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/556a9b54b9883e298dc0aaedccadcfb57629dc2267fb12f7d3bf1ad1c5bfe5a6_Whale_Fall_1.png",
+          "name": "Whale_Fall_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Fall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Fall_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/7621a818b222adffb5d5bdc8f7b8d6931fa84a2aa0488dc262faf1256ff78d3a_Whale_Fall_2.png",
+          "name": "Whale_Fall_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Ground_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/5c0c2e11f9c5eb49f2a3c15aeffae2a7e51a5645458b6f81834e5885e3625660_Whale_Ground_1.png",
+          "name": "Whale_Ground_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Ground_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/5c0c2e11f9c5eb49f2a3c15aeffae2a7e51a5645458b6f81834e5885e3625660_Whale_Ground_2.png",
+          "name": "Whale_Ground_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Ground_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/bdd964facdb3b709a511346df42bc412dbf3ea54ec2e9a8c00c760f018f90a19_Whale_Ground_3.png",
+          "name": "Whale_Ground_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/502374c57c2c60600a5213897e946ce09d23f8f9f5a32836e7e0eb5b1a9b3873_Whale_Hit_1.png",
+          "name": "Whale_Hit_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/502374c57c2c60600a5213897e946ce09d23f8f9f5a32836e7e0eb5b1a9b3873_Whale_Hit_2.png",
+          "name": "Whale_Hit_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/502374c57c2c60600a5213897e946ce09d23f8f9f5a32836e7e0eb5b1a9b3873_Whale_Hit_3.png",
+          "name": "Whale_Hit_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/4f57c7927f3518104bd28457c4ccd26c4ab6fa4bf2d3957a0691230f0ffe1e15_Whale_Hit_4.png",
+          "name": "Whale_Hit_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/e6b9038b926673bf4ae3381fdcdc222f215215a63200263f228665ad7dda643b_Whale_Hit_5.png",
+          "name": "Whale_Hit_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/e6b9038b926673bf4ae3381fdcdc222f215215a63200263f228665ad7dda643b_Whale_Hit_6.png",
+          "name": "Whale_Hit_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Hit_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Hit_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/2aeac6b1d1c98ea83d841f046ea05f29dedc0dd4741a32702841aef631fdc828_Whale_Hit_7.png",
+          "name": "Whale_Hit_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_1.png",
+          "name": "Whale_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_10.png",
+          "name": "Whale_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_11.png",
+          "name": "Whale_Idle_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_12.png",
+          "name": "Whale_Idle_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_13.png",
+          "name": "Whale_Idle_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_14.png",
+          "name": "Whale_Idle_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_15.png",
+          "name": "Whale_Idle_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_16.png",
+          "name": "Whale_Idle_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_17.png",
+          "name": "Whale_Idle_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_18.png",
+          "name": "Whale_Idle_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/50376dde47e3f03c9c2d3696a6fada1bdd7c99d23501766da7be3e8e3bbb0166_Whale_Idle_19.png",
+          "name": "Whale_Idle_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_2.png",
+          "name": "Whale_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_20.png",
+          "name": "Whale_Idle_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/96a5a670c740b09d81b7ad7fdc0a90e2df165ac5e565daf45fe99f4a9f305a13_Whale_Idle_21.png",
+          "name": "Whale_Idle_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/96a5a670c740b09d81b7ad7fdc0a90e2df165ac5e565daf45fe99f4a9f305a13_Whale_Idle_22.png",
+          "name": "Whale_Idle_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_23.png",
+          "name": "Whale_Idle_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_24.png",
+          "name": "Whale_Idle_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/9485d0777b6e16d58454dc965caf4ca249ce4bbf920d0da00c121ea58569dfa5_Whale_Idle_25.png",
+          "name": "Whale_Idle_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/e5ad1527b5b4f0f5306eec6005a842c3ca2b529cf9dd39f3584cc11dcffbb239_Whale_Idle_26.png",
+          "name": "Whale_Idle_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/fd9e55eaed4a924e660377f1cd4abc2303b97234c3f76874f79cf55e1cc2a7a3_Whale_Idle_27.png",
+          "name": "Whale_Idle_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/cbcb116b1f930843a3718f8fda88bd7b2fd9370946751992058977f11b38d559_Whale_Idle_28.png",
+          "name": "Whale_Idle_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/752a61ee4ede5d5a28ad7d73ca73166a282d3335e987e6092c1292b6e02e428d_Whale_Idle_29.png",
+          "name": "Whale_Idle_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_3.png",
+          "name": "Whale_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/f521ca608c48e6eebc3542a8e41dbd8544270e2114964c557106e1a0a9afa708_Whale_Idle_30.png",
+          "name": "Whale_Idle_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/e46fffda756ff950f4907303eb6b4c169466d977787f30168a464dee4f3c8ab0_Whale_Idle_31.png",
+          "name": "Whale_Idle_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/0ee2ba83b4c0e67843e0c15b25686dad89366483a7313a6bf65225573272bb7e_Whale_Idle_32.png",
+          "name": "Whale_Idle_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a06c9eee9c477ab9e6d176ce7a1f18eb2a9f44c9a58097741e2d817100e4c66e_Whale_Idle_33.png",
+          "name": "Whale_Idle_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_34.png",
+          "name": "Whale_Idle_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_35.png",
+          "name": "Whale_Idle_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_36.png",
+          "name": "Whale_Idle_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_37.png",
+          "name": "Whale_Idle_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_38.png",
+          "name": "Whale_Idle_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_39.png",
+          "name": "Whale_Idle_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_4.png",
+          "name": "Whale_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_40.png",
+          "name": "Whale_Idle_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_41.png",
+          "name": "Whale_Idle_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_42.png",
+          "name": "Whale_Idle_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/6d5cbeb7641432db702a6c4ed6fb6b4fd243bacea728a3f4a79b098167228674_Whale_Idle_43.png",
+          "name": "Whale_Idle_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/50376dde47e3f03c9c2d3696a6fada1bdd7c99d23501766da7be3e8e3bbb0166_Whale_Idle_44.png",
+          "name": "Whale_Idle_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_5.png",
+          "name": "Whale_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_6.png",
+          "name": "Whale_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_7.png",
+          "name": "Whale_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_8.png",
+          "name": "Whale_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Idle_9.png",
+          "name": "Whale_Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Jump Anticipation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Jump Anticipation.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/7b6fc6a7f57a892230d1cf0dee229026c4e0a6884368b43fa56ed4640d31328f_Whale_Jump Anticipation.png",
+          "name": "Whale_Jump Anticipation.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a5e387ef2f922e47bcc5d5af416e753dfebb24055388fa1f3db06609b0f9fe82_Whale_Jump_1.png",
+          "name": "Whale_Jump_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a5e387ef2f922e47bcc5d5af416e753dfebb24055388fa1f3db06609b0f9fe82_Whale_Jump_2.png",
+          "name": "Whale_Jump_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/c544f7752dceaf513e411493bef77a72e98e65dcc34a4bc5b979f4025f2f417b_Whale_Jump_3.png",
+          "name": "Whale_Jump_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Jump_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/0bc400314cea14070dc54fc4b98fface1e383e84535ee3435f914f6b6300a59d_Whale_Jump_4.png",
+          "name": "Whale_Jump_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/818e5b6a21d5df1a9f818da893cff211f788750a19e9f2d3bc1a236c3caa11fd_Whale_Run_1.png",
+          "name": "Whale_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/2b09d18f92615853df9ac6ee526265cdaf77df98bd2411b8e514b2868f09c59e_Whale_Run_10.png",
+          "name": "Whale_Run_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/2b09d18f92615853df9ac6ee526265cdaf77df98bd2411b8e514b2868f09c59e_Whale_Run_11.png",
+          "name": "Whale_Run_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/70586c30757f57b67531d0939c70fea13500e8ff646fc4c693a73ca536629831_Whale_Run_12.png",
+          "name": "Whale_Run_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/5a435aef521c96b8f885cfab67603607663152984ea2cf7ef00618ead56ff90d_Whale_Run_13.png",
+          "name": "Whale_Run_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/5a435aef521c96b8f885cfab67603607663152984ea2cf7ef00618ead56ff90d_Whale_Run_14.png",
+          "name": "Whale_Run_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/b01c4746592454dc0182d48b899b64cceb86568a7c86e02413e7fc3e21e09d5e_Whale_Run_2.png",
+          "name": "Whale_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/3bfd45a98792656b1ef9049ae5096273cd5da4cf2c0d6e888bfd295d12891360_Whale_Run_3.png",
+          "name": "Whale_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/3bfd45a98792656b1ef9049ae5096273cd5da4cf2c0d6e888bfd295d12891360_Whale_Run_4.png",
+          "name": "Whale_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/693a167f3bff0544e8415a94af1d69a34d153bb3b1f85fce1e1ceeb2a747b760_Whale_Run_5.png",
+          "name": "Whale_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/ee4d1505a4547896082b8e4ae7922367effad0e6e04fccfb95d9464789be4dad_Whale_Run_6.png",
+          "name": "Whale_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/ee4d1505a4547896082b8e4ae7922367effad0e6e04fccfb95d9464789be4dad_Whale_Run_7.png",
+          "name": "Whale_Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/5f707c2065b3eec6ef5ce4c8404974ab35f4cf6acf7e1a80e61b4ab2e3656d59_Whale_Run_8.png",
+          "name": "Whale_Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Run_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a68c209206e306c7db91801b3761d19ace94bf3bc0334ee85c8ea03afc185f86_Whale_Run_9.png",
+          "name": "Whale_Run_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/34f1c95ed53e56a146fcc3e5e1f93c9c1d12d9d7a86c85b38828c8c52e6976bc_Whale_Swalow Bomb_1.png",
+          "name": "Whale_Swalow Bomb_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/18b3ac8ec3fae98843d6fe9afd6e81b9d7b0470c8aa5f039533fedb3c7799c3c_Whale_Swalow Bomb_10.png",
+          "name": "Whale_Swalow Bomb_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/1bb3783b6f0ced6cfd5f2af216927f4e009dca9c993d0eddecf25533c48007b8_Whale_Swalow Bomb_2.png",
+          "name": "Whale_Swalow Bomb_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/ae634f5d9d1d0d634ac29d9818c686fb209e754417e26be08a4989cd7815f9cf_Whale_Swalow Bomb_3.png",
+          "name": "Whale_Swalow Bomb_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a742f2769131cd1f21091b20f6e2dfc29917da1d9dd07a271e6ada442c7700ef_Whale_Swalow Bomb_4.png",
+          "name": "Whale_Swalow Bomb_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a742f2769131cd1f21091b20f6e2dfc29917da1d9dd07a271e6ada442c7700ef_Whale_Swalow Bomb_5.png",
+          "name": "Whale_Swalow Bomb_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/a63186a6de2f8e5ecdc2db1f8532064966615b11bce1e87c90d7c17002405f2a_Whale_Swalow Bomb_6.png",
+          "name": "Whale_Swalow Bomb_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/bd7e5a8cb6c62874908f42ec10281e9fee91172870d61a21b3c2dcd0beb0f95e_Whale_Swalow Bomb_7.png",
+          "name": "Whale_Swalow Bomb_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/bd7e5a8cb6c62874908f42ec10281e9fee91172870d61a21b3c2dcd0beb0f95e_Whale_Swalow Bomb_8.png",
+          "name": "Whale_Swalow Bomb_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Whale_Swalow Bomb_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Whale_Swalow Bomb_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Characters/Whale/4fa3cb886f95c0c06b4d3e41a88bc8922dd98feeabbb9b3359d747100b84358c_Whale_Swalow Bomb_9.png",
+          "name": "Whale_Swalow Bomb_9.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 245,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main_32scene",
+      "name": "Main scene",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 194,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5468750000000006,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 271,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Turret",
+          "persistentUuid": "c670857f-eddb-4c84-8248-ad85e844726c",
+          "width": 0,
+          "x": 422,
+          "y": 528,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 62,
+          "layer": "",
+          "name": "GameOver",
+          "persistentUuid": "203fe765-7325-49fc-bf17-179d6a654621",
+          "width": 228,
+          "x": 303,
+          "y": 366,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 607,
+          "layer": "",
+          "name": "Sea",
+          "persistentUuid": "f50cd602-ef5d-435e-8a30-40a7bb1e873c",
+          "width": 812,
+          "x": -10,
+          "y": -6,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Turret",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cannon.png",
+                      "points": [
+                        {
+                          "name": "Canon",
+                          "x": 134,
+                          "y": 24.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 71.0841,
+                        "y": 24.4613
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Bullet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestruirFora",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cannon Ball.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 15.0215,
+                        "y": 14.95
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Enemy",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Pirate ship",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Red ship.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 33,
+                        "y": 56.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "a39858c45723f7ad4fa827a5c0f2d03107372ef63946233066dc1daf62c5b79e",
+          "name": "Explosion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 37,
+                        "y": 37.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 37,
+                        "y": 37.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "explosion_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 37,
+                        "y": 37.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GameOver",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Game Over",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "3ee3a793953b7172157fb8fe898fc26a387689feb50ed02be93a48b411fd0cd6",
+          "height": 128,
+          "name": "Sea",
+          "tags": "",
+          "texture": "tiled_sea.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"EnemyCreation\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Turret",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\"",
+                ">",
+                "0.25"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bullet",
+                "Turret.PointX(\"Canon\")",
+                "Turret.PointY(\"Canon\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Bullet",
+                "Turret.Angle()",
+                "400",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"EnemyCreation\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Enemy",
+                "Random(800)",
+                "-50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"EnemyCreation\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Enemy",
+                "Turret",
+                "150",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Enemy",
+                "Turret.CenterX()",
+                "Turret.CenterY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Enemy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Explosion",
+                "Enemy.PointX(\"Centre\")",
+                "Enemy.PointY(\"Centre\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "Explosion"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Explosion",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Enemy",
+                "Turret",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Explosion",
+                "Turret.PointX(\"Centre\")",
+                "Turret.PointY(\"Centre\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Turret",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GameOver"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickedInstancesCount"
+              },
+              "parameters": [
+                "Turret",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"GameOver\"",
+                ">",
+                "0.1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOver",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
